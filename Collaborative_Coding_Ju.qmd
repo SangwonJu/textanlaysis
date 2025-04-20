@@ -1,0 +1,71 @@
+---
+title: "Bonus Lab: Collaborative Coding with GitHub"
+format: html
+---
+
+Table of contents
+1 Bonus Lab: Collaborative Coding Overview 1
+1.1 Technical Learning Objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+1.2 Business Learning Objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+1 Bonus Lab: Collaborative Coding Overview
+1.1 Technical Learning Objectives
+1. Understand how collaborative coding can be supported by Git version control and the
+GitHub platform.
+2. Understand how to use clone a repo from within Positron, and then how to use pulls,
+commits, and pushes to update the repo.
+1.2 Business Learning Objectives
+1. Understand how GitHub and Shiny can be used to support the role of data visualization
+(data viz) in data science and analytics.
+2. Understand how to use GitHub to support collaborative coding in data science and
+analytics.
+For this bonus lab, we will learn more about working in a distributed coding environment.
+While we have been using GitHub all semester as the private repository for the course labs,
+we have not yet use it to its full potential for collaborative coding. With this bonus lab, we
+will take a look at how GitHub can be used to support collaborative coding in data science
+and analytics.
+This is a bit of an experiment, so for now, we will structure the lab in the following ways.
+1There are five main parts to the lab:
+Part 1: Clone a Repo from GitHub Once you have access to the repo you can work on
+the project from within Positron by first “cloning” the project. That will bring all the files
+from the GitHub repository to your local computer. To clone a repo, you will need to take
+the following steps. 1. If you are cloning a private repo, your userID must be added by the
+owner (for a public repo you may skip to the next step). 2. In the web-based repo click on
+the green “Code” button and copy the https url. 3. In Positron, click “File -> New Folder
+from Git” 4. In the dialogue box that appears, in the field: “Git Repository URL”, paste the
+url from #2 above. 5. Then give the project a name, and choose a subdirectory location 6.
+Decide whether you want to “Open in a new folder” in checkbox 7. Then click “OK” – the
+repo is now cloned on your machine
+Once you complete these steps, you will have all the files from the cloned project on your
+computer in the subdirectory you created.
+Part 2: Execute a Successful Pull from the Repo Once you have access to the repo
+on your local computer, the first thing you should do is execute a “Pull” request. To do this,
+click on the “Source Control” pane on the far left column of icons in Positron. There, select
+the hamburger (the three dots… in the upper right corner of Source Control) and select “Pull”.
+This will update your local files with any changes that have been made to the repo since you
+cloned it (and/or since your last pull).
+Part 3: Open a Shared Quarto Document and Save as New once you have executed
+a pull, you may see the files in your project directory grow. Then, locate and open up
+the shared Quarto document named: Collaborative_Coding_StarterCode.qmd. Use a “Save
+As” to save this document as a new file with a name that includes your name, for example:
+Collaborative_Coding_Cogburn.qmd.
+Part 4: Commit Your Document once you have gone through all the shiny examples,
+and added anything else you want to, please make a commit to the repo. This will save your
+changes to the repo, and prepare you for the final step. Remember to write a brief “Commit
+Message” that explains what you did.
+Part 5: Push Your Document now, for the final step, once you have committed your
+changes, you will need to “Push” your changes to the repo. This will update the repo on
+GitHub with your changes. To “Push” your committed updates, use the following steps:
+1. Open “Source Control” tab.
+2. There, click the dropdown arrow next to the “Commit” button, select “Commit & Push”.
+3. It will open up a “Commit” dialogue box.
+4. There, write a very short Commit note about what you’ve done.
+5. Once you have written the commit note, click the “Checkmark” above the dialogue box.
+6. At that point, the new files you’ve been working on are pushed to the repo.
+2Once you have done this, you are done with the lab. There is no need to “render” your
+document, or do anything else. Just make sure you have pushed your changes to the repo with
+your new Quarto file named and saved properly and I will see them.
+This tutorial has shown you how to clone a GitHub repo, how to execute a successful “Pull”
+request. How to create content, then make a “Commit” of your files. Then to “Push” the files
+back up to the repo. While this is just a basic example to get your feet wet, this process is
+the essence of collaborative coding.
+*** End of Lab ***
